@@ -1,0 +1,14 @@
+﻿Alternative,Tectonic stability,Fault and fracture intensity,Evaporites,Reservoir–seal pairs,Leakage via outcrops,Basin size,Reservoir temperature,Hydrogeological confinement,Depleted reservoir potential,Freshwater constraint,Industry maturity,Onshore / offshore,Accessibility,Infrastructure,CO₂ source proximity
+WCSB,<50 cm/s²,Low,Bedded,Excellent,Low,">200,000 km²",>100°C,Regional,Very large (>1 Gboe),Some,Very mature,Onshore,Easy,Extensive,Major (within basin)
+Williston Basin,<50 cm/s²,Low,Bedded,Good,Low,">200,000 km²",70–100°C,Regional,Large (500 Mboe–1 Gboe),Limited,Mature,Onshore,Easy,Extensive,Major (within basin)
+Michigan Basin,<50 cm/s²,Low,Bedded,Good,Low,"<200,000 km²",40–70°C,Regional,Large (500 Mboe–1 Gboe),Some,Mature,Onshore,Easy,Extensive,Major (within basin)
+NL Offshore,50–100 cm/s²,Moderate,None,Good,Intermediate,"<200,000 km²",>100°C,Intermediate,Large (500 Mboe–1 Gboe),Abundant,Mature,Shallow offshore,Acceptable,Moderate,Major (within basin)
+Maritimes (onshore),50–100 cm/s²,Moderate,Bedded,Intermediate,Intermediate,"<200,000 km²",40–70°C,Intermediate,Minor (<50 Mboe),Some,Exploring,Onshore,Easy,Minor,Major <200 km
+Maritimes (offshore),50–100 cm/s²,Moderate,Bedded,Intermediate,Low,"<200,000 km²",70–100°C,Regional,None,Abundant,Exploring,Shallow offshore,Difficult,Minor,Major <200 km
+St. Lawrence,50–100 cm/s²,Moderate,Domes,Intermediate,Intermediate,"<200,000 km²",40–70°C,Intermediate,Moderate (50–500 Mboe),All fresh,Developing,Onshore,Easy,Moderate,Major (within basin)
+Scotian Basin,50–100 cm/s²,Moderate,None,Good,Intermediate,">200,000 km²",>100°C,Intermediate,Moderate (50–500 Mboe),Abundant,Mature,Deep offshore,Acceptable,Moderate,Minor
+Beaufort-Mackenzie,50–100 cm/s²,Moderate,None,Intermediate,Intermediate,"<200,000 km²",>100°C,Intermediate,Minor (<50 Mboe),Some,Developing,Onshore,Difficult,Minor,None
+Flemish Pass,50–100 cm/s²,Moderate,None,Good,Intermediate,"<200,000 km²",>100°C,Intermediate,Minor (<50 Mboe),Abundant,Developing,Deep offshore,Difficult,Minor,Minor
+Hudson Bay,<50 cm/s²,Low,None,Intermediate,Intermediate,">200,000 km²",40–70°C,Local,None,All fresh,Unexplored,Shallow offshore,Difficult,None,Minor
+Arctic Islands,<50 cm/s²,Low,None,Poor,Intermediate,"<200,000 km²",<40°C,Local,None,All fresh,Unexplored,Onshore,Inaccessible,None,None
+Pacific Margin,>200 cm/s²,High,None,Poor,Very high,"<200,000 km²",70–100°C,Local,None,Abundant,Exploring,Shallow offshore,Difficult,Minor,Moderate

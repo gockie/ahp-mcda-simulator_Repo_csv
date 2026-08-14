@@ -1,0 +1,63 @@
+﻿Criterion,Class,Label,Raw_score
+Tectonic stability,1,>200 cm/s²,1.0
+Tectonic stability,2,100–200 cm/s²,3.0
+Tectonic stability,3,50–100 cm/s²,7.0
+Tectonic stability,4,<50 cm/s²,15.0
+Fault and fracture intensity,1,High,1.0
+Fault and fracture intensity,2,Moderate,3.0
+Fault and fracture intensity,3,Low,7.0
+Evaporites,1,None,1.0
+Evaporites,2,Domes,2.0
+Evaporites,3,Bedded,3.0
+Reservoir–seal pairs,1,None,1.0
+Reservoir–seal pairs,2,Poor,3.0
+Reservoir–seal pairs,3,Intermediate,7.0
+Reservoir–seal pairs,4,Good,15.0
+Reservoir–seal pairs,5,Excellent,21.0
+Leakage via outcrops,1,Very high,1.0
+Leakage via outcrops,2,High,3.0
+Leakage via outcrops,3,Intermediate,5.0
+Leakage via outcrops,4,Low,7.0
+Leakage via outcrops,5,Very low,9.0
+Basin size,1,<600 km²,1.0
+Basin size,2,"<1,000 km²",3.0
+Basin size,3,"<2,000 km²",7.0
+Basin size,4,"<200,000 km²",15.0
+Basin size,5,">200,000 km²",21.0
+Reservoir temperature,1,<40°C,1.0
+Reservoir temperature,2,40–70°C,3.0
+Reservoir temperature,3,70–100°C,7.0
+Reservoir temperature,4,>100°C,15.0
+Hydrogeological confinement,1,Local,1.0
+Hydrogeological confinement,2,Intermediate,3.0
+Hydrogeological confinement,3,Regional,5.0
+Depleted reservoir potential,1,None,1.0
+Depleted reservoir potential,2,Minor (<50 Mboe),3.0
+Depleted reservoir potential,3,Moderate (50–500 Mboe),5.0
+Depleted reservoir potential,4,Large (500 Mboe–1 Gboe),15.0
+Depleted reservoir potential,5,Very large (>1 Gboe),21.0
+Freshwater constraint,1,All fresh,1.0
+Freshwater constraint,2,Abundant,3.0
+Freshwater constraint,3,Some,5.0
+Freshwater constraint,4,Limited,7.0
+Industry maturity,1,Unexplored,1.0
+Industry maturity,2,Exploring,2.0
+Industry maturity,3,Developing,4.0
+Industry maturity,4,Mature,8.0
+Industry maturity,5,Very mature,10.0
+Onshore / offshore,1,Deep offshore,1.0
+Onshore / offshore,2,Shallow offshore,6.0
+Onshore / offshore,3,Onshore,10.0
+Accessibility,1,Inaccessible,1.0
+Accessibility,2,Difficult,3.0
+Accessibility,3,Acceptable,6.0
+Accessibility,4,Easy,10.0
+Infrastructure,1,None,1.0
+Infrastructure,2,Minor,3.0
+Infrastructure,3,Moderate,7.0
+Infrastructure,4,Extensive,10.0
+CO₂ source proximity,1,None,1.0
+CO₂ source proximity,2,Minor,3.0
+CO₂ source proximity,3,Moderate,7.0
+CO₂ source proximity,4,Major <200 km,15.0
+CO₂ source proximity,5,Major (within basin),15.0

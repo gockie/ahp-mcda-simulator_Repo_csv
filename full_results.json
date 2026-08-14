@@ -1,0 +1,580 @@
+{
+  "analysis_mode": "ahp_mc",
+  "analysis_mode_label": "AHP-MCDA + Monte Carlo",
+  "method": "AHP (CR-verified) + WSM + Monte Carlo judgement perturbation",
+  "weight_derivation": "ahp_pairwise",
+  "monte_carlo": true,
+  "criteria": [
+    "Tectonic stability",
+    "Fault and fracture intensity",
+    "Evaporites",
+    "Reservoir\u2013seal pairs",
+    "Leakage via outcrops",
+    "Basin size",
+    "Reservoir temperature",
+    "Hydrogeological confinement",
+    "Depleted reservoir potential",
+    "Freshwater constraint",
+    "Industry maturity",
+    "Onshore / offshore",
+    "Accessibility",
+    "Infrastructure",
+    "CO\u2082 source proximity"
+  ],
+  "alternatives": [
+    "WCSB",
+    "Williston Basin",
+    "Michigan Basin",
+    "NL Offshore",
+    "Maritimes (onshore)",
+    "Maritimes (offshore)",
+    "St. Lawrence",
+    "Scotian Basin",
+    "Beaufort-Mackenzie",
+    "Flemish Pass",
+    "Hudson Bay",
+    "Arctic Islands",
+    "Pacific Margin"
+  ],
+  "weights": {
+    "Tectonic stability": 0.051034590982432015,
+    "Fault and fracture intensity": 0.08202499062065385,
+    "Evaporites": 0.019004068866704804,
+    "Reservoir\u2013seal pairs": 0.1796588239559462,
+    "Leakage via outcrops": 0.019004068866704804,
+    "Basin size": 0.030973344494845456,
+    "Reservoir temperature": 0.12256176683242101,
+    "Hydrogeological confinement": 0.030973344494845456,
+    "Depleted reservoir potential": 0.051034590982432015,
+    "Freshwater constraint": 0.019004068866704804,
+    "Industry maturity": 0.051034590982432015,
+    "Onshore / offshore": 0.08202499062065385,
+    "Accessibility": 0.030973344494845456,
+    "Infrastructure": 0.051034590982432015,
+    "CO\u2082 source proximity": 0.1796588239559462
+  },
+  "class_definitions": {
+    "Tectonic stability": {
+      "n": 4,
+      "labels": [
+        ">200 cm/s\u00b2",
+        "100\u2013200 cm/s\u00b2",
+        "50\u2013100 cm/s\u00b2",
+        "<50 cm/s\u00b2"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        7.0,
+        15.0
+      ]
+    },
+    "Fault and fracture intensity": {
+      "n": 3,
+      "labels": [
+        "High",
+        "Moderate",
+        "Low"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        7.0
+      ]
+    },
+    "Evaporites": {
+      "n": 3,
+      "labels": [
+        "None",
+        "Domes",
+        "Bedded"
+      ],
+      "scores": [
+        1.0,
+        2.0,
+        3.0
+      ]
+    },
+    "Reservoir\u2013seal pairs": {
+      "n": 5,
+      "labels": [
+        "None",
+        "Poor",
+        "Intermediate",
+        "Good",
+        "Excellent"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        7.0,
+        15.0,
+        21.0
+      ]
+    },
+    "Leakage via outcrops": {
+      "n": 5,
+      "labels": [
+        "Very high",
+        "High",
+        "Intermediate",
+        "Low",
+        "Very low"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        5.0,
+        7.0,
+        9.0
+      ]
+    },
+    "Basin size": {
+      "n": 5,
+      "labels": [
+        "<600 km\u00b2",
+        "<1,000 km\u00b2",
+        "<2,000 km\u00b2",
+        "<200,000 km\u00b2",
+        ">200,000 km\u00b2"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        7.0,
+        15.0,
+        21.0
+      ]
+    },
+    "Reservoir temperature": {
+      "n": 4,
+      "labels": [
+        "<40\u00b0C",
+        "40\u201370\u00b0C",
+        "70\u2013100\u00b0C",
+        ">100\u00b0C"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        7.0,
+        15.0
+      ]
+    },
+    "Hydrogeological confinement": {
+      "n": 3,
+      "labels": [
+        "Local",
+        "Intermediate",
+        "Regional"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        5.0
+      ]
+    },
+    "Depleted reservoir potential": {
+      "n": 5,
+      "labels": [
+        "None",
+        "Minor (<50 Mboe)",
+        "Moderate (50\u2013500 Mboe)",
+        "Large (500 Mboe\u20131 Gboe)",
+        "Very large (>1 Gboe)"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        5.0,
+        15.0,
+        21.0
+      ]
+    },
+    "Freshwater constraint": {
+      "n": 4,
+      "labels": [
+        "All fresh",
+        "Abundant",
+        "Some",
+        "Limited"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        5.0,
+        7.0
+      ]
+    },
+    "Industry maturity": {
+      "n": 5,
+      "labels": [
+        "Unexplored",
+        "Exploring",
+        "Developing",
+        "Mature",
+        "Very mature"
+      ],
+      "scores": [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        10.0
+      ]
+    },
+    "Onshore / offshore": {
+      "n": 3,
+      "labels": [
+        "Deep offshore",
+        "Shallow offshore",
+        "Onshore"
+      ],
+      "scores": [
+        1.0,
+        6.0,
+        10.0
+      ]
+    },
+    "Accessibility": {
+      "n": 4,
+      "labels": [
+        "Inaccessible",
+        "Difficult",
+        "Acceptable",
+        "Easy"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        6.0,
+        10.0
+      ]
+    },
+    "Infrastructure": {
+      "n": 4,
+      "labels": [
+        "None",
+        "Minor",
+        "Moderate",
+        "Extensive"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        7.0,
+        10.0
+      ]
+    },
+    "CO\u2082 source proximity": {
+      "n": 5,
+      "labels": [
+        "None",
+        "Minor",
+        "Moderate",
+        "Major <200 km",
+        "Major (within basin)"
+      ],
+      "scores": [
+        1.0,
+        3.0,
+        7.0,
+        15.0,
+        15.0
+      ]
+    }
+  },
+  "assignments": {
+    "WCSB": {
+      "Tectonic stability": "<50 cm/s\u00b2",
+      "Fault and fracture intensity": "Low",
+      "Evaporites": "Bedded",
+      "Reservoir\u2013seal pairs": "Excellent",
+      "Leakage via outcrops": "Low",
+      "Basin size": ">200,000 km\u00b2",
+      "Reservoir temperature": ">100\u00b0C",
+      "Hydrogeological confinement": "Regional",
+      "Depleted reservoir potential": "Very large (>1 Gboe)",
+      "Freshwater constraint": "Some",
+      "Industry maturity": "Very mature",
+      "Onshore / offshore": "Onshore",
+      "Accessibility": "Easy",
+      "Infrastructure": "Extensive",
+      "CO\u2082 source proximity": "Major (within basin)"
+    },
+    "Williston Basin": {
+      "Tectonic stability": "<50 cm/s\u00b2",
+      "Fault and fracture intensity": "Low",
+      "Evaporites": "Bedded",
+      "Reservoir\u2013seal pairs": "Good",
+      "Leakage via outcrops": "Low",
+      "Basin size": ">200,000 km\u00b2",
+      "Reservoir temperature": "70\u2013100\u00b0C",
+      "Hydrogeological confinement": "Regional",
+      "Depleted reservoir potential": "Large (500 Mboe\u20131 Gboe)",
+      "Freshwater constraint": "Limited",
+      "Industry maturity": "Mature",
+      "Onshore / offshore": "Onshore",
+      "Accessibility": "Easy",
+      "Infrastructure": "Extensive",
+      "CO\u2082 source proximity": "Major (within basin)"
+    },
+    "Michigan Basin": {
+      "Tectonic stability": "<50 cm/s\u00b2",
+      "Fault and fracture intensity": "Low",
+      "Evaporites": "Bedded",
+      "Reservoir\u2013seal pairs": "Good",
+      "Leakage via outcrops": "Low",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": "40\u201370\u00b0C",
+      "Hydrogeological confinement": "Regional",
+      "Depleted reservoir potential": "Large (500 Mboe\u20131 Gboe)",
+      "Freshwater constraint": "Some",
+      "Industry maturity": "Mature",
+      "Onshore / offshore": "Onshore",
+      "Accessibility": "Easy",
+      "Infrastructure": "Extensive",
+      "CO\u2082 source proximity": "Major (within basin)"
+    },
+    "NL Offshore": {
+      "Tectonic stability": "50\u2013100 cm/s\u00b2",
+      "Fault and fracture intensity": "Moderate",
+      "Evaporites": "None",
+      "Reservoir\u2013seal pairs": "Good",
+      "Leakage via outcrops": "Intermediate",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": ">100\u00b0C",
+      "Hydrogeological confinement": "Intermediate",
+      "Depleted reservoir potential": "Large (500 Mboe\u20131 Gboe)",
+      "Freshwater constraint": "Abundant",
+      "Industry maturity": "Mature",
+      "Onshore / offshore": "Shallow offshore",
+      "Accessibility": "Acceptable",
+      "Infrastructure": "Moderate",
+      "CO\u2082 source proximity": "Major (within basin)"
+    },
+    "Maritimes (onshore)": {
+      "Tectonic stability": "50\u2013100 cm/s\u00b2",
+      "Fault and fracture intensity": "Moderate",
+      "Evaporites": "Bedded",
+      "Reservoir\u2013seal pairs": "Intermediate",
+      "Leakage via outcrops": "Intermediate",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": "40\u201370\u00b0C",
+      "Hydrogeological confinement": "Intermediate",
+      "Depleted reservoir potential": "Minor (<50 Mboe)",
+      "Freshwater constraint": "Some",
+      "Industry maturity": "Exploring",
+      "Onshore / offshore": "Onshore",
+      "Accessibility": "Easy",
+      "Infrastructure": "Minor",
+      "CO\u2082 source proximity": "Major <200 km"
+    },
+    "Maritimes (offshore)": {
+      "Tectonic stability": "50\u2013100 cm/s\u00b2",
+      "Fault and fracture intensity": "Moderate",
+      "Evaporites": "Bedded",
+      "Reservoir\u2013seal pairs": "Intermediate",
+      "Leakage via outcrops": "Low",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": "70\u2013100\u00b0C",
+      "Hydrogeological confinement": "Regional",
+      "Depleted reservoir potential": "None",
+      "Freshwater constraint": "Abundant",
+      "Industry maturity": "Exploring",
+      "Onshore / offshore": "Shallow offshore",
+      "Accessibility": "Difficult",
+      "Infrastructure": "Minor",
+      "CO\u2082 source proximity": "Major <200 km"
+    },
+    "St. Lawrence": {
+      "Tectonic stability": "50\u2013100 cm/s\u00b2",
+      "Fault and fracture intensity": "Moderate",
+      "Evaporites": "Domes",
+      "Reservoir\u2013seal pairs": "Intermediate",
+      "Leakage via outcrops": "Intermediate",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": "40\u201370\u00b0C",
+      "Hydrogeological confinement": "Intermediate",
+      "Depleted reservoir potential": "Moderate (50\u2013500 Mboe)",
+      "Freshwater constraint": "All fresh",
+      "Industry maturity": "Developing",
+      "Onshore / offshore": "Onshore",
+      "Accessibility": "Easy",
+      "Infrastructure": "Moderate",
+      "CO\u2082 source proximity": "Major (within basin)"
+    },
+    "Scotian Basin": {
+      "Tectonic stability": "50\u2013100 cm/s\u00b2",
+      "Fault and fracture intensity": "Moderate",
+      "Evaporites": "None",
+      "Reservoir\u2013seal pairs": "Good",
+      "Leakage via outcrops": "Intermediate",
+      "Basin size": ">200,000 km\u00b2",
+      "Reservoir temperature": ">100\u00b0C",
+      "Hydrogeological confinement": "Intermediate",
+      "Depleted reservoir potential": "Moderate (50\u2013500 Mboe)",
+      "Freshwater constraint": "Abundant",
+      "Industry maturity": "Mature",
+      "Onshore / offshore": "Deep offshore",
+      "Accessibility": "Acceptable",
+      "Infrastructure": "Moderate",
+      "CO\u2082 source proximity": "Minor"
+    },
+    "Beaufort-Mackenzie": {
+      "Tectonic stability": "50\u2013100 cm/s\u00b2",
+      "Fault and fracture intensity": "Moderate",
+      "Evaporites": "None",
+      "Reservoir\u2013seal pairs": "Intermediate",
+      "Leakage via outcrops": "Intermediate",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": ">100\u00b0C",
+      "Hydrogeological confinement": "Intermediate",
+      "Depleted reservoir potential": "Minor (<50 Mboe)",
+      "Freshwater constraint": "Some",
+      "Industry maturity": "Developing",
+      "Onshore / offshore": "Onshore",
+      "Accessibility": "Difficult",
+      "Infrastructure": "Minor",
+      "CO\u2082 source proximity": "None"
+    },
+    "Flemish Pass": {
+      "Tectonic stability": "50\u2013100 cm/s\u00b2",
+      "Fault and fracture intensity": "Moderate",
+      "Evaporites": "None",
+      "Reservoir\u2013seal pairs": "Good",
+      "Leakage via outcrops": "Intermediate",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": ">100\u00b0C",
+      "Hydrogeological confinement": "Intermediate",
+      "Depleted reservoir potential": "Minor (<50 Mboe)",
+      "Freshwater constraint": "Abundant",
+      "Industry maturity": "Developing",
+      "Onshore / offshore": "Deep offshore",
+      "Accessibility": "Difficult",
+      "Infrastructure": "Minor",
+      "CO\u2082 source proximity": "Minor"
+    },
+    "Hudson Bay": {
+      "Tectonic stability": "<50 cm/s\u00b2",
+      "Fault and fracture intensity": "Low",
+      "Evaporites": "None",
+      "Reservoir\u2013seal pairs": "Intermediate",
+      "Leakage via outcrops": "Intermediate",
+      "Basin size": ">200,000 km\u00b2",
+      "Reservoir temperature": "40\u201370\u00b0C",
+      "Hydrogeological confinement": "Local",
+      "Depleted reservoir potential": "None",
+      "Freshwater constraint": "All fresh",
+      "Industry maturity": "Unexplored",
+      "Onshore / offshore": "Shallow offshore",
+      "Accessibility": "Difficult",
+      "Infrastructure": "None",
+      "CO\u2082 source proximity": "Minor"
+    },
+    "Arctic Islands": {
+      "Tectonic stability": "<50 cm/s\u00b2",
+      "Fault and fracture intensity": "Low",
+      "Evaporites": "None",
+      "Reservoir\u2013seal pairs": "Poor",
+      "Leakage via outcrops": "Intermediate",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": "<40\u00b0C",
+      "Hydrogeological confinement": "Local",
+      "Depleted reservoir potential": "None",
+      "Freshwater constraint": "All fresh",
+      "Industry maturity": "Unexplored",
+      "Onshore / offshore": "Onshore",
+      "Accessibility": "Inaccessible",
+      "Infrastructure": "None",
+      "CO\u2082 source proximity": "None"
+    },
+    "Pacific Margin": {
+      "Tectonic stability": ">200 cm/s\u00b2",
+      "Fault and fracture intensity": "High",
+      "Evaporites": "None",
+      "Reservoir\u2013seal pairs": "Poor",
+      "Leakage via outcrops": "Very high",
+      "Basin size": "<200,000 km\u00b2",
+      "Reservoir temperature": "70\u2013100\u00b0C",
+      "Hydrogeological confinement": "Local",
+      "Depleted reservoir potential": "None",
+      "Freshwater constraint": "Abundant",
+      "Industry maturity": "Exploring",
+      "Onshore / offshore": "Shallow offshore",
+      "Accessibility": "Difficult",
+      "Infrastructure": "Minor",
+      "CO\u2082 source proximity": "Moderate"
+    }
+  },
+  "scores": {
+    "WCSB": 0.9889142931610888,
+    "Williston Basin": 0.8446646427506801,
+    "Michigan Basin": 0.7940203021135855,
+    "NL Offshore": 0.7024178340597638,
+    "Maritimes (onshore)": 0.513735746559612,
+    "Maritimes (offshore)": 0.497007004531135,
+    "St. Lawrence": 0.5306908526349875,
+    "Scotian Basin": 0.4866298250067794,
+    "Beaufort-Mackenzie": 0.4073764379029507,
+    "Flemish Pass": 0.4165458335218613,
+    "Hudson Bay": 0.32305938250768707,
+    "Arctic Islands": 0.2642338301990786,
+    "Pacific Margin": 0.24496895850656594
+  },
+  "tiers": {
+    "WCSB": 1,
+    "Williston Basin": 2,
+    "Michigan Basin": 2,
+    "NL Offshore": 2,
+    "Maritimes (onshore)": 3,
+    "Maritimes (offshore)": 3,
+    "St. Lawrence": 3,
+    "Scotian Basin": 3,
+    "Beaufort-Mackenzie": 3,
+    "Flemish Pass": 3,
+    "Hudson Bay": 4,
+    "Arctic Islands": 4,
+    "Pacific Margin": 4
+  },
+  "tier_breaks": [
+    0.3652179102053189,
+    0.6165543433473757,
+    0.9167894679558845
+  ],
+  "n_iterations": 10000,
+  "perturbation_probability": 0.3,
+  "perturbation_mechanism": "saaty_scale_step",
+  "mc_sigma": {
+    "Tectonic stability": 0.0029582512643302147,
+    "Fault and fracture intensity": 0.00397683159307504,
+    "Evaporites": 0.0010192767776489142,
+    "Reservoir\u2013seal pairs": 0.0064470541498110896,
+    "Leakage via outcrops": 0.0010287071573204258,
+    "Basin size": 0.0018695749325911342,
+    "Reservoir temperature": 0.005190512095538744,
+    "Hydrogeological confinement": 0.0018784328554831635,
+    "Depleted reservoir potential": 0.002903718794272832,
+    "Freshwater constraint": 0.0010271504450335986,
+    "Industry maturity": 0.0029294402064905557,
+    "Onshore / offshore": 0.004019437781728007,
+    "Accessibility": 0.001866125977090142,
+    "Infrastructure": 0.002966727186609563,
+    "CO\u2082 source proximity": 0.006514418481886056
+  },
+  "mc_stability": {
+    "WCSB": 100.0,
+    "Williston Basin": 100.0,
+    "Michigan Basin": 100.0,
+    "NL Offshore": 100.0,
+    "Maritimes (onshore)": 100.0,
+    "Maritimes (offshore)": 100.0,
+    "St. Lawrence": 100.0,
+    "Scotian Basin": 100.0,
+    "Beaufort-Mackenzie": 100.0,
+    "Flemish Pass": 100.0,
+    "Hudson Bay": 100.0,
+    "Arctic Islands": 100.0,
+    "Pacific Margin": 100.0
+  }
+}

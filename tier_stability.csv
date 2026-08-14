@@ -1,0 +1,14 @@
+﻿Alternative,Score,Tier,Tier stability (%),Verdict
+WCSB,0.9889142931610888,Tier 1 - Priority,100.0,Robust
+Williston Basin,0.8446646427506801,Tier 2 - Secondary,100.0,Robust
+Michigan Basin,0.7940203021135855,Tier 2 - Secondary,100.0,Robust
+NL Offshore,0.7024178340597638,Tier 2 - Secondary,100.0,Robust
+Maritimes (onshore),0.513735746559612,Tier 3 - Low priority,100.0,Robust
+Maritimes (offshore),0.497007004531135,Tier 3 - Low priority,100.0,Robust
+St. Lawrence,0.5306908526349875,Tier 3 - Low priority,100.0,Robust
+Scotian Basin,0.4866298250067794,Tier 3 - Low priority,100.0,Robust
+Beaufort-Mackenzie,0.4073764379029507,Tier 3 - Low priority,100.0,Robust
+Flemish Pass,0.4165458335218613,Tier 3 - Low priority,100.0,Robust
+Hudson Bay,0.32305938250768707,Tier 4 - Marginal,100.0,Robust
+Arctic Islands,0.2642338301990786,Tier 4 - Marginal,100.0,Robust
+Pacific Margin,0.24496895850656594,Tier 4 - Marginal,100.0,Robust
