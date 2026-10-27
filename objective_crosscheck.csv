@@ -1,4 +1,4 @@
 ﻿Scheme,Weighted Spearman,Kendall Tau,Top-4 identical
-Equal,0.990,0.949,Yes
-CRITIC,0.990,0.949,Yes
-Entropy,0.976,0.897,Yes
+Equal,0.993,0.974,Yes
+CRITIC,0.993,0.974,Yes
+Entropy,0.980,0.923,Yes

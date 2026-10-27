@@ -433,7 +433,7 @@
       "Depleted reservoir potential": "Minor (<50 Mboe)",
       "Freshwater constraint": "Some",
       "Industry maturity": "Developing",
-      "Onshore / offshore": "Onshore",
+      "Onshore / offshore": "Deep offshore",
       "Accessibility": "Difficult",
       "Infrastructure": "Minor",
       "CO\u2082 source proximity": "None"
@@ -516,7 +516,7 @@
     "Maritimes (offshore)": 0.497007004531135,
     "St. Lawrence": 0.5306908526349875,
     "Scotian Basin": 0.4866298250067794,
-    "Beaufort-Mackenzie": 0.4073764379029507,
+    "Beaufort-Mackenzie": 0.3253514472822968,
     "Flemish Pass": 0.4165458335218613,
     "Hudson Bay": 0.32305938250768707,
     "Arctic Islands": 0.2642338301990786,
@@ -531,14 +531,14 @@
     "Maritimes (offshore)": 2,
     "St. Lawrence": 2,
     "Scotian Basin": 2,
-    "Beaufort-Mackenzie": 2,
+    "Beaufort-Mackenzie": 3,
     "Flemish Pass": 2,
     "Hudson Bay": 3,
     "Arctic Islands": 3,
     "Pacific Margin": 3
   },
   "tier_breaks": [
-    0.3652179102053189,
+    0.3709486404020791,
     0.6165543433473757
   ],
   "n_iterations": 10000,
