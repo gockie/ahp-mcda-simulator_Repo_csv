@@ -524,23 +524,22 @@
   },
   "tiers": {
     "WCSB": 1,
-    "Williston Basin": 2,
-    "Michigan Basin": 2,
-    "NL Offshore": 2,
-    "Maritimes (onshore)": 3,
-    "Maritimes (offshore)": 3,
-    "St. Lawrence": 3,
-    "Scotian Basin": 3,
-    "Beaufort-Mackenzie": 3,
-    "Flemish Pass": 3,
-    "Hudson Bay": 4,
-    "Arctic Islands": 4,
-    "Pacific Margin": 4
+    "Williston Basin": 1,
+    "Michigan Basin": 1,
+    "NL Offshore": 1,
+    "Maritimes (onshore)": 2,
+    "Maritimes (offshore)": 2,
+    "St. Lawrence": 2,
+    "Scotian Basin": 2,
+    "Beaufort-Mackenzie": 2,
+    "Flemish Pass": 2,
+    "Hudson Bay": 3,
+    "Arctic Islands": 3,
+    "Pacific Margin": 3
   },
   "tier_breaks": [
     0.3652179102053189,
-    0.6165543433473757,
-    0.9167894679558845
+    0.6165543433473757
   ],
   "n_iterations": 10000,
   "perturbation_probability": 0.3,
